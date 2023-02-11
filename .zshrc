@@ -87,6 +87,13 @@ bindkey "^[[B" history-substring-search-down
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
+
+function mkcd
+{
+  dir="$*";
+  mkdir -p "$dir" && cd "$dir";
+}
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
