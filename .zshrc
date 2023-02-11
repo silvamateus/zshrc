@@ -3,7 +3,7 @@ alias ls='ls --color=always'
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _ignored
-zstyle :compinstall filename '/home/passocacornio/.zshrc'
+zstyle :compinstall filename "$HOME/.zshrc"
 
 autoload -Uz compinit
 compinit
@@ -30,12 +30,12 @@ bindkey -e
 autoload -Uz promptinit
 promptinit
 
-export ZSH=/home/passocacornio/.config/.zsh
+export ZSH="$HOME/.config/.zsh"
 
 # source ~/.config/.zsh/themes/Ducula/ducula.zsh-theme 
 
 setopt PROMPT_SUBST
-source "/home/passocacornio/.config/.zsh/themes/spaceship-zsh-theme/spaceship.zsh"
+source "$HOME/.config/.zsh/themes/spaceship-zsh-theme/spaceship.zsh"
 
 source $ZSH/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
