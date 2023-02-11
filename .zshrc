@@ -53,7 +53,7 @@ if [ -f "$1/$2"  ]
 then
     source "$1/$2"
 else
-    wget "$3" "$1/$2" 
+    wget "$3" -O "$1/$2" 
 fi
 
 }
