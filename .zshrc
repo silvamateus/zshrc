@@ -70,7 +70,7 @@ fi
 checkIFDirExists "$ZSH/themes/spaceship-prompt" "spaceship.zsh" "https://github.com/spaceship-prompt/spaceship-prompt.git"
 checkIFDirExists "$ZSH/plugins/zsh-syntax-highlighting" "zsh-syntax-highlighting.zsh" "https://github.com/zsh-users/zsh-syntax-highlighting.git"
 checkIFDirExists "$ZSH/plugins/zsh-history-substring-search" "zsh-history-substring-search.zsh" "https://github.com/zsh-users/zsh-history-substring-search.git"
-checkIFDirExists "$ZSH/plugins/zsh-autosuggestions" "zsh-autosuggestions.zsh" "zsh-history-substring-search.zsh"
+checkIFDirExists "$ZSH/plugins/zsh-autosuggestions" "zsh-autosuggestions.zsh" "https://github.com/zsh-users/zsh-autosuggestions.git"
 
 checkAndDownload "$ZSH/plugins" "git.plugin.zsh" "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/git/git.plugin.zsh"
 checkAndDownload "$ZSH/plugins" "pyenv.plugin.zsh" "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/pyenv/pyenv.plugin.zsh"
